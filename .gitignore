@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+tfenv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs - ignore all log files anywhere in the project
+*.log
+Proj1/logs/
+
+# Ignore annclassification folder
+annclassification/
+Sol/
+
+# Environment/secrets
+.env
