@@ -13,7 +13,7 @@ This folder contains a small project demonstrating a feed-forward neural network
 - label_encoder_gender.pkl — Label encoder used for gender column.
 - onehot_encoder_geography.pkl — One-hot encoder used for geography column.
 - Dataset/ — Folder containing the dataset used for training.
-- logs/ — Training logs (e.g., TensorBoard). Note: logs/fit may contain large or ephemeral files.
+- logs/ — Training logs (e.g., TensorBoard).
 
 ## Requirements
 
@@ -68,18 +68,6 @@ Training logs under `Proj1/logs/fit` can grow large. Recommended actions:
 - Remove tracked log files from the repository and add `Proj1/logs/` to `.gitignore` to prevent re-adding them.
 - Or store logs externally.
 
-To remove tracked log files locally and update the remote, run:
-
-```
-git rm -r --cached Proj1/logs/fit
-git commit -m "Remove Proj1/logs/fit from repository"
-git push origin <branch>
-```
-
-(Replace `<branch>` with the branch you use, e.g., `main`.)
-
 ## Author
 
 Repository owner: heart-throbb
-
-If you need me to also remove the tracked log files from the repository (delete them from the Git history), tell me and I will provide or perform the steps.

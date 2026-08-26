@@ -1,4 +1,10 @@
-# Ignore training logs and other ephemeral files
+Proj1/Sol/
+Proj2/
+annclassification/
 
-# Ignore Proj1 logs
-Proj1/logs/
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+tfenv/
