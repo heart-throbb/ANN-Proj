@@ -1,6 +1,8 @@
 Proj1/Sol/
 Proj2/regressionlogs/
 Proj3/logs/
+Proj4/logs/
+Proj4/Dataset/
 annclassification/
 
 *.log
