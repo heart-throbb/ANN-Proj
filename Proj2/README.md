@@ -53,7 +53,7 @@ python -m pip install pandas numpy scikit-learn tensorflow streamlit jupyter
 Run the command from this `Proj2` directory:
 
 ```bash
-cd 12-ANN_PROJ/Proj2
+cd ANN/Proj2
 python -m streamlit run 3-app.py
 ```
 
